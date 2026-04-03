@@ -8,7 +8,7 @@ body:
     attributes:
       label: Pre-flight checklist
       options:
-        - label: I have searched [existing issues](https://github.com/jubnl/TREK/issues) and this bug has not been reported yet
+        - label: I have searched [existing issues](https://github.com/mauriceboe/TREK/issues) and this bug has not been reported yet
           required: true
         - label: I am running the latest available version of TREK
           required: true
