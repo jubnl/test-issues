@@ -79,8 +79,8 @@ body:
         - Desktop browser
         - Mobile browser
         - Mobile app (PWA)
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: input
     id: browser
