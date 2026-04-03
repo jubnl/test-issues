@@ -12,8 +12,6 @@ body:
           required: true
         - label: I am running the latest available version of TREK
           required: true
-        - label: I will fill in a title
-          required: true
 
   - type: input
     id: version
@@ -61,6 +59,8 @@ body:
         - Docker Compose
         - Docker (standalone)
         - Kubernetes / Helm
+        - Unraid template
+        - Sources
         - Other
     validations:
       required: true
@@ -70,6 +70,17 @@ body:
     attributes:
       label: Host OS
       placeholder: "e.g. Ubuntu 24.04, Unraid 6.12, Synology DSM 7"
+
+  - type: dropdown
+    id: user_os
+    attributes:
+      label: Accessing TREK from
+      options:
+        - Desktop browser
+        - Mobile browser
+        - Mobile app (PWA)
+      validations:
+        required: true
 
   - type: input
     id: browser
