@@ -37,7 +37,14 @@ You can also type any XYZ tile URL directly into the text field.
 
 ## Mapbox GL — access token and style
 
-Enter your **public token** (`pk.*`) from [mapbox.com → Access tokens](https://account.mapbox.com/access-tokens/).
+Enter your **public token** (`pk.*`) from [mapbox.com → Access tokens](https://console.mapbox.com/account/access-tokens/).
+
+Required scopes are:
+- STYLES:TILES
+- STYLES:READ
+- FONTS:READ
+- DATASETS:READ
+- VISION:READ
 
 If Mapbox GL is selected but no token is saved, the map area shows an empty state with a prompt to configure the token under Settings → Map → Mapbox GL.
 
